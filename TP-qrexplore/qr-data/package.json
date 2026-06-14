@@ -1,0 +1,13 @@
+{
+  "name": "qr-data",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Serveur de données questions/réponses (fourni tout prêt pour le cours QR Explore)",
+  "type": "module",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3001"
+  },
+  "dependencies": {
+    "json-server": "1.0.0-beta.15"
+  }
+}
